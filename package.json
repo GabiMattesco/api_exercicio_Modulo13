@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cy:open": "npx cypress open",
+    "start": "npx serverest",
     "cy:run": "npx cypress run",
     "cy:dashboard": "",
     "cy:report": ""
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/GabiMattesco/api_exercicio_Modulo13/issues"
   },
-  "homepage": "https://github.com/GabiMattesco/api_exercicio_Modulo13#readme"
+  "homepage": "https://github.com/GabiMattesco/api_exercicio_Modulo13#readme",
+  "devDependencies": {
+    "cypress": "^9.6.0"
+  }
 }
